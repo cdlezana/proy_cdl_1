@@ -1,0 +1,144 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="Author: unregistered Demoversion/Creator: MapViewSVG Version 4.3.10 for ArcView 3.x by uismedia (http://www.mapview.de); Thu Sep 08 10:42:14 2016">
+<title>View1</title>
+<link rel="stylesheet" href="embfiles/style.css">
+<script src="embfiles/variablen.js" language="JavaScript" type="text/javascript"></script>
+<script src="embfiles/syslib.js" language="JScript" type="text/javascript" charset="iso-8859-1"></script>
+<script src="embfiles/syslibxml.js" language="JScript" type="text/javascript" charset="iso-8859-1"></script>
+<script src="embfiles/viewboxzoom.js" language="JScript" type="text/javascript" charset="iso-8859-1"></script>
+<!-- MapViewSVG-MetaInfo
+Change these values for your own template, see the manual for more informations
+HeadingWidth=992
+HeadingAlign=middle
+LegendHeight=594
+-->
+<style type="text/css">
+body { background:white;margin:0;text-align:center }
+#pageBorder { position:relative;margin:40px;border:darkgray medium double;width:1072px;height:930px }
+#head { position:absolute;top:20px;left:30px }
+#legend { position:absolute;top:156px;left:842px }
+#map { position:absolute;top:101px;left:70px;border:1px solid black }
+#overview { position:absolute;top:101px;left:842px }
+#siteinfo { position:absolute;text-align:left;top:760px;left:70px }
+#scalebar { position:absolute;top:760px;left:822px }
+#scale { position:absolute;text-align:left;top:0px;left:70px }
+#svglogo { position:absolute;text-align:left;top:840px;left:70px }
+#showKoord { position:absolute;top:0px;left:70px }
+#zoomObject { position:absolute;text-align:left;top:101px;left:842px }
+#toolBarH {position:absolute;top:0px;left:0px;border:1px solid black;background-color:#ECE9D8;text-align:left;padding:4px }
+#toolBarV {position:absolute;top:576px;left:30px;border:1px solid black;background-color:#ECE9D8 }
+#logo { position:absolute;bottom:20px;left:30px  }
+.iconsV { margin:4px;border:none;display:block }
+.iconsH { margin-left:2px;margin-right:2px;border:none }
+.ZoomObjEle { width:200px;background-color:white }
+</style>
+<script language="JavaScript" type="text/javascript" charset="iso-8859-1">
+<!--
+function showHelp() {
+  var theWin = window.open("embfiles/help.html","MapViewSVGHelp", "width=450,height=404,top=50,left=50,toolbar=no,menubar=no,location=no,hotkeys=no,resizable=yes,scrollbars=yes,dependent=yes,status=no");
+  theWin.focus();
+}
+function prezoomObj() {
+  if (document.formzoomObj.listobj.selectedIndex > 0) selRec('field0=' + document.formzoomObj.listobj.options[document.formzoomObj.listobj.selectedIndex].value,'th0',true,false,true,20);
+  else {
+    clearColArray(colSelRecArray);
+    colSelRecArray = null;
+    fullExtent();
+  }
+}
+//-->
+</script>
+</head>
+<body onload="init();">
+<!-- Attention: Blanks, Returns can change the space between the elements (e.g. map border, toolbar border -->
+<div id="pageBorder">
+<script language="JavaScript" type="text/javascript">
+<!--
+embedHead();
+embedLegend();
+embedMap();
+embedSiteinfo();
+//-->
+</script>
+
+<div id="zoomObject">
+<form name="formzoomObj">
+<select name="listobj" onChange="prezoomObj();" size="1" class="ZoomObjEle">
+<option selected>Zoom to ...</option>
+<option value='"Avia Terai"'>Avia Terai</option>
+<option value='"Barranqueras"'>Barranqueras</option>
+<option value='"Basail"'>Basail</option>
+<option value='"Campo Largo"'>Campo Largo</option>
+<option value='"Capitan Solari"'>Capitan Solari</option>
+<option value='"Charadai"'>Charadai</option>
+<option value='"Charata"'>Charata</option>
+<option value='"Chorotis"'>Chorotis</option>
+<option value='"Ciervo Petiso"'>Ciervo Petiso</option>
+<option value='"Colonia Benitez"'>Colonia Benitez</option>
+<option value='"Colonia Elisa"'>Colonia Elisa</option>
+<option value='"Colonia Popular"'>Colonia Popular</option>
+<option value='"Colonias Unidas"'>Colonias Unidas</option>
+<option value='"Concepcion del Bermejo"'>Concepcion del Bermejo</option>
+<option value='"Coronel Du Graty"'>Coronel Du Graty</option>
+<option value='"Corzuela"'>Corzuela</option>
+<option value='"Cote Lai"'>Cote Lai</option>
+<option value='"El Sauzalito"'>El Sauzalito</option>
+<option value='"Enrique Urien"'>Enrique Urien</option>
+<option value='"Fontana"'>Fontana</option>
+<option value='"Fuerte Esperanza"'>Fuerte Esperanza</option>
+<option value='"Gancedo"'>Gancedo</option>
+<option value='"General Capdevila"'>General Capdevila</option>
+<option value='"General Pinedo"'>General Pinedo</option>
+<option value='"General San Martin"'>General San Martin</option>
+<option value='"General Vedia"'>General Vedia</option>
+<option value='"Hermoso Campo"'>Hermoso Campo</option>
+<option value='"Isla del Cerrito"'>Isla del Cerrito</option>
+<option value='"Juan Jose Castelli"'>Juan Jose Castelli</option>
+<option value='"La Clotilde"'>La Clotilde</option>
+<option value='"La Eduvigis"'>La Eduvigis</option>
+<option value='"La Escondida"'>La Escondida</option>
+<option value='"La Leonesa"'>La Leonesa</option>
+<option value='"La Tigra"'>La Tigra</option>
+<option value='"La Verde"'>La Verde</option>
+<option value='"Laguna Blanca"'>Laguna Blanca</option>
+<option value='"Laguna Limpia"'>Laguna Limpia</option>
+<option value='"Lapachito"'>Lapachito</option>
+<option value='"Las Brenas"'>Las Brenas</option>
+<option value='"Las Garcitas"'>Las Garcitas</option>
+<option value='"Las Palmas"'>Las Palmas</option>
+<option value='"Los Frentones"'>Los Frentones</option>
+<option value='"Machagai"'>Machagai</option>
+<option value='"Makalle"'>Makalle</option>
+<option value='"Margarita Belen"'>Margarita Belen</option>
+<option value='"Miraflores"'>Miraflores</option>
+<option value='"Mision Nueva Pompeya"'>Mision Nueva Pompeya</option>
+<option value='"Napenay"'>Napenay</option>
+<option value='"Pampa Almiron"'>Pampa Almiron</option>
+<option value='"Pampa del Indio"'>Pampa del Indio</option>
+<option value='"Pampa del Infierno"'>Pampa del Infierno</option>
+<option value='"Presidencia de la Plaza"'>Presidencia de la Plaza</option>
+<option value='"Presidencia Roca"'>Presidencia Roca</option>
+<option value='"Presidencia Roque Saenz Peña"'>Presidencia Roque Saenz Peña</option>
+<option value='"Puerto Bermejo"'>Puerto Bermejo</option>
+<option value='"Puerto Eva Peron"'>Puerto Eva Peron</option>
+<option value='"Puerto Tirol"'>Puerto Tirol</option>
+<option value='"Puerto Vilelas"'>Puerto Vilelas</option>
+<option value='"Quitilipi"'>Quitilipi</option>
+<option value='"Resistencia"'>Resistencia</option>
+<option value='"Samuhu"'>Samuhu</option>
+<option value='"San Bernardo"'>San Bernardo</option>
+<option value='"Santa Sylvina"'>Santa Sylvina</option>
+<option value='"Taco Pozo"'>Taco Pozo</option>
+<option value='"Tres Isletas"'>Tres Isletas</option>
+<option value='"Villa Angela"'>Villa Angela</option>
+<option value='"Villa Berthet"'>Villa Berthet</option>
+<option value='"Villa Rio Bermejito"'>Villa Rio Bermejito</option>
+</select>
+</form>
+</div>
+<div id="toolBarV"><a href="javascript:arrangeEvents('zoomin',false);" onMouseover="window.status='Zoom In';return true;" onMouseout="window.status='';return true;"><img src="pictures/zoominoff.png" id="zoomin" class="iconsV" width="20" height="20" title="Zoom In"></a><a href="javascript:arrangeEvents('zoomout',false);" onMouseover="window.status='Zoom Out';return true;" onMouseout="window.status='';return true;"><img src="pictures/zoomoutoff.png" id="zoomout" class="iconsV" width="20" height="20" title="Zoom Out"></a><a href="javascript:arrangeEvents('pan',false);" onMouseover="window.status='Pan';return true;" onMouseout="window.status='';return true;"><img src="pictures/panoff.png" id="pan" class="iconsV" width="20" height="20" title="Pan"></a><a href="javascript:fullExtent();" onMouseover="window.status='Back to original view';return true;" onMouseout="window.status='';return true;"><img src="pictures/globe.png" class="iconsV" width="20" height="20" title="Back to original view"></a><a href="javascript:arrangeEvents('identify',false);" onMouseover="window.status='Object-Information';return true;" onMouseout="window.status='';return true;"><img src="pictures/identifyon.png" id="identify" class="iconsV" width="20" height="20" title="Object-Information"></a><a href="javascript:window.print();" onMouseover="window.status='Print';return true;" onMouseout="window.status='';return true;"><img src="pictures/print.png" width="20" height="20" class="iconsV" title="Print"></a><a href="javascript:showHelp();" onMouseover="window.status='Help';return true;" onMouseout="window.status='';return true;"><img src="pictures/help.png" width="20" height="20" class="iconsV" title="Help"></a></div>
+<div id="logo"><img src="images/logo.jpg" width="30" height="60"></div>
+</div>
+</body></html>
